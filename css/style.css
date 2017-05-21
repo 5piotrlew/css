@@ -1,4 +1,13 @@
+/* Selektor znacznika - ten komentarz
+moze byc na kazdej linii*/
+
 p {
     color: orange;
-    
+}
+
+
+/* Selektor id */
+
+#paragraph {
+    color: blue;
 }
