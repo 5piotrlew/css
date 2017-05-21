@@ -25,3 +25,7 @@ p {
 a, span, div {
     color: green;
 }
+
+li > a {
+    color: yellow;
+}
