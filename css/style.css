@@ -59,4 +59,12 @@ ul > li:not(.last) {
     color: cyan;
 }
 
+/* Selektor kolejnego elementu potomnego */
+/* 2 razy zero plus jeden */
+/* odd - nieparzyste ; even - parzyste ul > ol:nth-child(even) */
+
+ul > ol:nth-child(2n+1) {
+    color: deeppink;
+}
+
 
