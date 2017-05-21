@@ -22,10 +22,22 @@ p {
 
 /* Łączenie selektorów */
 
-a, span, div {
+a,
+span,
+div {
     color: green;
 }
 
-li > a {
+
+/* Selektor bezpośredniego elementu potomnego */
+
+li>a {
     color: yellow;
+}
+
+
+/* Selektor elementów potomnych */
+
+div a {
+    color: gray;
 }
