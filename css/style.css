@@ -54,6 +54,9 @@ h4 ~ p {
     color: chocolate;
 }
 
-
+/* Selektor wykluczający */
+ul > li:not(.last) {
+    color: cyan;
+}
 
 
