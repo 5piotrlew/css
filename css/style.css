@@ -12,8 +12,16 @@ p {
     color: blue;
 }
 
+
 /* Selektor klasy */
 
-.akapit{
+.akapit {
     color: red;
+}
+
+
+/* Łączenie selektorów */
+
+a, span, div {
+    color: green;
 }
