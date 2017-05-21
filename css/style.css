@@ -41,3 +41,13 @@ li>a {
 div a {
     color: gray;
 }
+
+/* Selektor bliskiego rodzeństwa */
+/* zmienia na tym samym poziomie pierwsze h3 po pierwszym h2*/
+h2 + h3 {
+    color: cadetblue;
+}
+
+
+
+
