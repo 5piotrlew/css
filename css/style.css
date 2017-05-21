@@ -48,6 +48,12 @@ h2 + h3 {
     color: cadetblue;
 }
 
+/* Selektor rodzeństwa */
+
+h4 ~ p {
+    color: chocolate;
+}
+
 
 
 
